@@ -1,8 +1,3 @@
-/**
- * If the string is empty that most likely means there is no numbers
- * Using ',' as a delimiter and assuming all other chars can be converted to a num. construct an array
- * Loop over the arr adding the itemx to a whole sum variable
- **/
 export default function strCalulator(str: string): number {
   if (!str) return 0;
   const arrONum = str.split(",");
